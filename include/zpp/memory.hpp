@@ -11,7 +11,7 @@
 #include <zephyr/sys/__assert.h>
 
 #include <new>
-
+/*
 [[nodiscard]] void* operator new(std::size_t) noexcept
 {
   return nullptr;
@@ -51,5 +51,5 @@
 {
   return nullptr;
 }
-
+*/
 #endif // ZPP_INCLUDE_ZPP_MEMORY_HPP
